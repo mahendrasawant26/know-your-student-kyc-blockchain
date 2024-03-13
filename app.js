@@ -45,7 +45,7 @@ app.locals.moment = require('moment');
 
 //PASSPORT CONFIGURATION
 app.use(require("express-session")({
-    secret: "Hello, welcome to Doc-Verify",
+    secret: "Hello, welcome to Know Your Students",
     resave: false,
     saveUninitialized: false
 }));
