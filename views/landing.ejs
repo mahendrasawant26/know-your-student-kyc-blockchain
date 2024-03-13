@@ -2,8 +2,9 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<link rel="icon" href="/favicon.png" type="image/x-icon" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>DOCVERIFY</title>
+		<title>KYS | Blockchain</title>
 
 		<link
 			rel="stylesheet"
@@ -54,12 +55,12 @@
 					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav ml-auto">
 							<li class="nav-item">
-								<a class="nav-link about">About</a>
+								<a class="nav-link about"  href="/show#about">About</a>
 							</li>
 							
 							<ul class="nav navbar-nav navbar-right">
                     			<% if(!currentUser){ %>
-                        			<li class="nav-item login"><a class="nav-link">Login</a></li>
+                        			<li class="nav-item login"><a class="nav-link" href="/login">Login</a></li>
                     			<% } else { %>
                         			<li class="nav-item">
 										<a class="nav-link" href="/profile">Hi <%=currentUser.username%></a>
@@ -119,7 +120,7 @@
 						<div class="about-text-container text-center">
 							<h2 class="content-heading">Introduction</h2>
 							<p class="content">
-								This website was created as a part of the Capstone project.
+								This website was created as a part of the Major Project.
 							</p>
 							<p>
 								The main reason we chose to build a document verification website was to allow a modern and hassle-free solution to manage certificates, verify them and keep its integrity using <strong>Blockchain</strong>. 
@@ -212,7 +213,7 @@
 								<a href="mailto:sahitya.sagiraju@gmail.com">
 									<i class="fas fa-envelope fa-3x"></i>
 									<br />
-									@gmail.com
+									nihlaqureshi22@gmail.com
 								</a>
 							</p>
 						</div>
