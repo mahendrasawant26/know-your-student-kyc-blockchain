@@ -97,7 +97,7 @@ app.get("/profile", function(req, res) {
 			// res.render("admin", {user:user})
 			res.redirect("/admin")
 		}
-		if(user.usertype=='recruiter'){
+		if(user.usertype=='verifier'){
 			certificate.distinct("srn",function(err,certificate){
 				if(err){
 					console.log(err)
