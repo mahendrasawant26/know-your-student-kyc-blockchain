@@ -1,5 +1,5 @@
 {
-  "name": "Know Your Students KYC",
+  "name": "know-your-students",
   "version": "1.0.0",
   "description": "Document Verification SYstem using Blockchain",
   "main": "app.js",
@@ -30,6 +30,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
-  "author": "Danish || Atul",
+  "author": "Mahendra || Nihla",
   "license": "ISC"
 }
