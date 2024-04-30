@@ -20,4 +20,5 @@ publicly verifiable certificates, these Blockchain characteristics can be used t
 digital certificates that are resistant to counterfeiting.
 
 
-
+Welcome page
+![Screenshot 2024-04-21 232336](https://github.com/mahendrasawant26/know-your-student-kyc-blockchain/assets/110108264/e1e4e8f7-ab75-49b2-8bb0-eddbb28dc70d)
